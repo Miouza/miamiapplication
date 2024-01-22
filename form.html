@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Student Form</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<form action="">
+  <legend>STUDENT INFORMATION</legend>
+  <br>
+  <label for="fname">Firstname :</label>
+  <input type="text" id="fname" placeholder="firstname" required="required">
+  <br><br>
+
+  <label for="sname"> Surname :</label>
+  <input type="text" id="sname" placeholder="Surname" required="required=">
+  <BR><BR>
+  <label for="email"> Email Address :</label>
+  <input type="text" id="email" placeholder="abc@gmail.com" required="required">
+  <br><br>
+  <label for="pwd">Password :</label>
+  <input type="password" id="pwd" placeholder="Type your password" required="required">
+  <br><br>
+
+  <p>Choose a programming language</p>
+
+  <input type="radio"id="Python">
+  <label for="python">Python</label> <br>
+  <input type="radio" id="PHP">
+  <label for="php">PHP</label><BR>
+  <input type="radio" id="java">
+  <label for="java">JAVA</label><br>
+
+
+  <p>Choose your favourite game</p>
+  <input type="checkbox" id="Football">
+  <label for="football">FOOTBALL</label> <br>
+  <input type="checkbox" id="Hockey">
+  <label for="hockey">HOCKEY</label> <br>
+  <input type="checkbox" id="Tennis">
+  <label for="tennis">TENNIS</label> <br>
+
+  <label for="course">Select a course</label>
+  <select name="" id="course">
+    <option value="choose" disabled="disabled">--Choose Course--</option>
+    <option value="comp">Computer Science</option>
+    <option value="eng">Software engineering</option>
+    <option value="it">Information Technology</option>
+    <option value="appcomp">Applied Computer Science</option>
+    <option value="comp"> Computer Engineering</option>
+
+  </select>
+  <br><br>
+
+  <label for="file">Choose a file</label>
+  <input type="file" id="file" required="required">
+  <br><br>
+
+  <label for="yob"> Year of Birth</label>
+  <input type="date" id="yob" required="required">
+  <br><br>
+
+  <label for="type">Describe yourself</label><br>
+  <textarea name="" id="type" cols="30" rows="10" placeholder="Type here..."></textarea>
+  <button type="submit">Submit</button>
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
